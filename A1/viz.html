@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="https://cdn.jsdelivr.net/npm/vega@5"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-lite@5"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
+  </head>
+  <body>
+<div id="observablehq-hoursPerYear-4354c0d5"></div>
+<p>Credit: <a href="https://observablehq.com/d/b83ddc3b733f1a22">CSE 512: Assignment 1: Hours of Sunshine by Shruti Misra</a></p>
+
+<script type="module">
+import {Runtime, Inspector} from "https://cdn.jsdelivr.net/npm/@observablehq/runtime@4/dist/runtime.js";
+import define from "https://api.observablehq.com/d/b83ddc3b733f1a22@285.js?v=3";
+new Runtime().module(define, name => {
+  if (name === "hoursPerYear") return new Inspector(document.querySelector("#observablehq-hoursPerYear-4354c0d5"));
+});
+</script>
+  </body>
+</html>
